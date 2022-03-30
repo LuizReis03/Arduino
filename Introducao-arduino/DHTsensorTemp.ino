@@ -9,7 +9,7 @@ void setup() {
 
 void loop() {
   DHT.read11(pino);
-  Serial.print("Unidade: ");
+  Serial.print("Umidade: ");
   Serial.println(DHT.humidity);
   Serial.print("Temperatura: ");
   Serial.println(DHT.temperature, 0);
